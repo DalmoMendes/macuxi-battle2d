@@ -1,0 +1,106 @@
+*{
+  box-sizing: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background: orange;
+}
+
+/* FORMATAÇÃO MACUXI D2 */ 
+.macuxibattleD2 {
+  margin-left: 50px;
+  position: absolute;
+  bottom: 0;
+  background-image: url(../image/2D.png);
+  width: 60px;
+  height: 74px;
+}
+
+/* FORMATAÇÃO DAS BALAS */ 
+.bala {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(../image/bala.png);
+}
+
+/* FIM DE JOGO  */ 
+.game-over {
+  text-align: center;
+  color: white;
+  margin: 50px 0;
+  font-family: arial;
+}
+.game-over-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.game-over-btn:hover{
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* CONTADOR DE PONTOS */
+.ponts{
+  text-align: center;
+  color: white;
+}
+.batlle-2d{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+/* Logo Macuxi Battle 2D*/
+#battled2{
+  display: flex;
+  justify-content: center;
+}
+#battled2 > div{
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+}
+.battle2d{
+  margin-left: 20px;
+  position: absolute;
+  width: 100px;
+}
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 100px;
+  background-image: url('../image/background.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 300px;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
