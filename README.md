@@ -1,11 +1,11 @@
 # macuxi-battle2d
 Macuxi Battle 2D. Desenvolvido em JavaScript. Projeto prático do Bootcamp de JavaScript Gamer (DIO).
-# Tela Inicial
-<img src="https://github.com/DalmoMendes/macuxi-battle2d/screen-game-start.png">
-# Tela Jogando
-<img src="https://github.com/DalmoMendes/macuxi-battle2d/screen-game.png">
-# Tela Fim de Jogo
-<img src="https://github.com/DalmoMendes/macuxi-battle2d/screen-game-over.png">
+<h2>Tela Inicial</h2>
+<img src="https://github.com/DalmoMendes/macuxi-battle2d/blob/master/screen-game-start.png">
+<h2>Tela Jogando</h2>
+<img src="https://github.com/DalmoMendes/macuxi-battle2d/blob/master/screen-game.png">
+<h2>Tela Fim de Jogo</h2>
+<img src="https://github.com/DalmoMendes/macuxi-battle2d/blob/master/screen-game-over.png">
 
 # :rocket: ceproirr 
 <p>by Dalmo Mendes - dalmosilvamendens@gmail.com</p>
